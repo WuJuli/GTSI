@@ -1,0 +1,13 @@
+(207, 13) (90, 13) (207,) (90,)
+dt_default 0.6777777777777778 0.772938443670151
+RandomizedSearchCV took 5.08 seconds for 300 candidates parameter settings.
+best_estimator_DT  DecisionTreeClassifier(max_depth=3, min_samples_leaf=6, min_samples_split=3,
+                       random_state=322, splitter='random') 0.8476190476190478
+                       
+GBC defalut model :  0.7222222222222222
+RandomizedSearchCV took 125.14 seconds for 300 candidates parameter settings.
+best_estimator_GBC :  GradientBoostingClassifier(max_depth=1, n_estimators=200) 0.8333333333333334
+
+SVM
+grid.best_params:  {'C': 0.1, 'gamma': 1, 'kernel': 'linear'} SVC(C=0.1, gamma=1, kernel='linear')
+best score: 0.8444444444444444

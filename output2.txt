@@ -1,0 +1,4 @@
+dt_default 0.9766081871345029 0.9094936708860759
+RandomizedSearchCV took 6.85 seconds for 300 candidates parameter settings.
+best_estimator_DT : DecisionTreeClassifier(max_depth=14, min_samples_leaf=2, min_samples_split=11,
+                       random_state=322, splitter='random') 0.95
